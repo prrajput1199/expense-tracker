@@ -1,0 +1,9 @@
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30
+sqlalchemy>=2.0,<2.1
+pydantic>=2.7,<3
+pydantic-settings>=2.3
+psycopg2-binary>=2.9      # PostgreSQL driver
+pymysql>=1.1              # MySQL driver (optional, only if you use MySQL)
+pytest>=8.0
+httpx>=0.27               # required by FastAPI's TestClient
